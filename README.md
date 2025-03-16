@@ -1,33 +1,33 @@
-### **📌 README.md - Desafio Machine Learning**  
-
-```md
 # 🏆 Desafio Machine Learning - Previsão de Preço de Fórmulas Manipuladas  
 
 Este repositório contém a solução do **Desafio de Machine Learning**, onde o objetivo é prever o preço correto (`correto`) de fórmulas manipuladas a partir de um conjunto de dados fornecido.  
 
+---
+
 ## 📂 Estrutura do Repositório  
 
-📁 desafio-machine-learning/
-├── 📜 desafio_ml_solucao.ipynb → Notebook principal do projeto
-├── 📜 dashboard.pbix → Arquivo final do Power BI
-├── 📜 Relatorio_Tecnico.pdf → Relatório técnico do desafio
-├── 📜 README.md → Documentação principal do repositório
-├── 📜 requirements.txt → Lista de bibliotecas Python necessárias
+📁 **desafio-machine-learning/**  
+├── 📜 `desafio_ml_solucao.ipynb` → **Notebook principal do projeto**  
+├── 📜 `dashboard.pbix` → **Arquivo final do Power BI**  
+├── 📜 `Relatorio_Tecnico.pdf` → **Relatório técnico do desafio**  
+├── 📜 `README.md` → **Documentação principal do repositório**  
+├── 📜 `requirements.txt` → **Lista de bibliotecas Python necessárias**  
 
 ---
 
-## 🎯 **Objetivo do Desafio**  
+## 🎯 Objetivo do Desafio  
 
 Prever o valor da coluna `correto` com o **menor erro possível**, utilizando **modelos de Machine Learning** e analisando os resultados com um **dashboard no Power BI**.  
 
-- **Dados disponíveis:** 7.121 registros  
-- **Treinamento:** Primeiros **5.121 dados**  
-- **Teste:** Últimos **2.000 dados**  
+📌 **Detalhes do dataset:**  
+- **Total de registros:** 7.121  
+- **Treinamento:** **5.121** dados  
+- **Teste:** **2.000** dados  
 - **Ferramentas utilizadas:** Python (Jupyter Notebook) e Power BI  
 
 ---
 
-## 🛠️ **Tecnologias Utilizadas**  
+## 🛠️ Tecnologias Utilizadas  
 
 ### 📌 **Linguagens e Bibliotecas**  
 - **Python** → Manipulação de dados e treinamento de modelos  
@@ -38,11 +38,11 @@ Prever o valor da coluna `correto` com o **menor erro possível**, utilizando **
 
 ---
 
-## 📊 **Modelos de Machine Learning Utilizados**  
+## 📊 Modelos de Machine Learning Utilizados  
 
 Foram testados **três modelos de regressão supervisionada**, e o melhor desempenho foi:  
 
-| Modelo                        | RMSE ↓  (Quanto menor, melhor) |  
+| Modelo                        | RMSE ↓  *(Quanto menor, melhor)* |  
 |--------------------------------|-----------------|  
 | 🏆 **Gradient Boosting Regressor** | 🚀 **9.6370**  (**Melhor Modelo**) |  
 | XGBoost Regressor              | 9.6557 |  
@@ -52,7 +52,7 @@ Foram testados **três modelos de regressão supervisionada**, e o melhor desemp
 
 ---
 
-## 📈 **Dashboard no Power BI**  
+## 📈 Dashboard no Power BI  
 
 O Power BI foi utilizado para análise dos dados e validação dos resultados do modelo.  
 
@@ -68,50 +68,45 @@ O Power BI foi utilizado para análise dos dados e validação dos resultados do
 
 ---
 
-## 🚀 **Como Executar o Projeto?**  
+## 🚀 Como Executar o Projeto?  
 
-### 📌 **1️⃣ Clonar o Repositório**  
+### **1️⃣ Clonar o Repositório**  
 ```sh
 git clone https://github.com/seu-usuario/desafio-machine-learning.git
 cd desafio-machine-learning
-```
 
-### 📌 **2️⃣ Instalar Dependências**  
+### **2️⃣ Instalar Dependências**
+
 ```sh
 pip install -r requirements.txt
 ```
 
-### 📌 **3️⃣ Executar o Notebook no Jupyter**  
+### **3️⃣ Executar o Notebook no Jupyter**
+
 ```sh
 jupyter notebook
 ```
-Abra **Solucao.ipynb** e execute todas as células.
+
+- Abra **notebooks/desafio_ml_solucao.ipynb**
+- Execute todas as células para gerar os resultados
 
 ---
 
-## 📤 **Como Abrir o Dashboard no Power BI?**  
-1. Baixe o arquivo `dashboard.pbix`  
-2. Abra no Power BI Desktop  
-3. Explore os gráficos e métricas 📊  
+## 📤 Como Abrir o Dashboard no Power BI?
+
+1. Baixe o arquivo `pbix/dashboard.pbix`
+2. Abra no Power BI Desktop
+3. Explore os gráficos e métricas 📊
 
 ---
 
-## 📬 **Contato**  
+## 📬 Contato
 
-📧 Caso tenha dúvidas ou sugestões, entre em contato pelo GitHub.  
+📧 Caso tenha dúvidas ou sugestões, entre em contato pelo GitHub.
 
 ---
 
 ✅ **Projeto 100% reprodutível e documentado.**  
-🚀 **Pronto para análise e melhorias!** 🔥  
-```
+🚀 **Pronto para análise e melhorias!** 🔥
 
----
-
-### **📌 O que foi atualizado no README?**  
-✅ **Descrição mais detalhada do projeto**  
-✅ **Lista completa de arquivos**  
-✅ **Explicação clara dos modelos de Machine Learning**  
-✅ **Demonstração do dashboard Power BI**  
-✅ **Passo a passo para rodar o projeto**  
 
